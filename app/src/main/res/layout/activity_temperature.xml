@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".TemperatureActivity">
 
+    <Button
+        android:id="@+id/showMembersActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Members"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <Button
+        android:id="@+id/showRoomsActivityButtonbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rooms"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <EditText
+        android:id="@+id/temperatureBrnoET"
+        android:layout_width="311dp"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Current temperature in Brno"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="63dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
