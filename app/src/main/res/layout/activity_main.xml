@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
     tools:context="cz.pivkavmeste.aamte2018.householdchores.MainActivity">
 
     <EditText
@@ -17,12 +18,12 @@
         android:layout_marginBottom="8dp"
         android:text="new Member"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
-        app:layout_constraintEnd_toStartOf="@+id/showRoomsButton"
+        app:layout_constraintEnd_toStartOf="@+id/showRoomsButton1"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/addMemberbutton" />
+        app:layout_constraintStart_toStartOf="@+id/addMemberbutton1" />
 
     <Button
-        android:id="@+id/addMemberbutton"
+        android:id="@+id/addMemberbutton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -35,7 +36,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <Button
-        android:id="@+id/showRoomsButton"
+        android:id="@+id/showRoomsButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -71,7 +72,7 @@
         app:layout_constraintGuide_end="74dp" />
 
     <Button
-        android:id="@+id/showTipOfTheDayButton"
+        android:id="@+id/showTipOfTheDayButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -82,7 +83,7 @@
         android:layout_marginBottom="8dp"
         android:text="Tip of the day"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/showRoomsButton"
-        app:layout_constraintStart_toEndOf="@+id/addMemberbutton"
+        app:layout_constraintEnd_toStartOf="@+id/showRoomsButton1"
+        app:layout_constraintStart_toEndOf="@+id/addMemberbutton1"
         app:layout_constraintTop_toBottomOf="@+id/membersEditText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
